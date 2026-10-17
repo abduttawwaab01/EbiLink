@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { EnhancedPostCard } from '../../../components/EnhancedPostCard';
 
-export default function FamilyDashboard({ params }: { params: { slug: string } }) {
+export default function FamilyDashboard() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-cream-50 to-cream-100 text-emerald-950">
       {/* Premium Hero Header */}
