@@ -1,0 +1,10 @@
+[env]
+AUTH_SECRET = "${AUTH_SECRET}"
+AUTH_URL = "${AUTH_URL}"
+DATABASE_URL = "sqlite:file:./ebilink.db"
+STORAGE_PROVIDER = "local"
+STORAGE_PATH = "./public/uploads"
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/"
