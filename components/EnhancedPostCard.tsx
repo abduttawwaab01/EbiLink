@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 
 export function EnhancedPostCard({ post }: { post: { title: string; body: string; author: string; time: string; tags?: string[]; avatar: string } }) {
